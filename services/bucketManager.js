@@ -39,6 +39,7 @@ exports.uploadFile = function (payload) {
     })
 }
 
+
 exports.deleteFile = function (keys) {
     const payload = {
         Bucket: process.env.AWS_BUCKET_NAME,
